@@ -1,0 +1,124 @@
+ body {
+     margin: 0;
+
+ }
+
+ header {
+     margin-top: 30px;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul li {
+     list-style: none;
+ }
+
+ .details-part>ul {
+     display: flex;
+
+ }
+
+ .button {
+     background-color: #9683CB;
+     color: white;
+     padding: 7px 15px;
+     border-radius: 7px 0;
+ }
+
+ .details-part ul li {
+     padding: 0 15px;
+     color: #927ECC;
+ }
+
+ .dropdown-items {
+     display: none;
+     position: absolute;
+ }
+
+ .dropdown:hover .dropdown-items {
+     display: block;
+
+     background-color: #ccc9d6b6;
+     padding: 0 20px;
+ }
+
+ .container {
+     display: flex;
+     width: 90%;
+     margin: auto;
+     justify-content: space-between;
+
+ }
+
+ .h1-left {
+     font-size: 46px;
+
+ }
+
+ .text-part {
+     margin: 100px auto auto 100px;
+ }
+
+ .section-2 .text-part {
+     padding: 30px 60px;
+     width: 35%;
+     background-color: #FFF3F3;
+     border-radius: 100px 10px;
+     margin-left: 150px;
+ }
+
+ .section-3 {
+     background-color: #EFEAFF;
+     ;
+ }
+
+ .section-4 h1 {
+     font-size: 36px;
+     margin: 100px auto auto 100px;
+ }
+
+ .grid-container {
+     width: 50%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+
+ }
+
+ .grid-container div {
+     margin: 10px 30px;
+     padding: 10px;
+     background-color: #FFF3F3;
+     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 50px 5px;
+ }
+
+ .section-5 {
+     background-color: #EFEAFF;
+     padding: 100px;
+     height: 50vh;
+ }
+
+ .div-container div {
+     width: 80%;
+     margin: 0px auto;
+ }
+
+
+ .Subscribe-button {
+
+     background-color: #927ECC;
+     color: white;
+     padding: 5px 20px;
+ }
+
+ .search-box {
+     width: 400px;
+ }
+
+ .footer-div-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin: 70px 100px;
+ }
