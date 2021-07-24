@@ -96,6 +96,7 @@
 
  .section-5 {
      background-color: #EFEAFF;
+     background-size: cover;
      padding: 100px;
      height: 50vh;
  }
